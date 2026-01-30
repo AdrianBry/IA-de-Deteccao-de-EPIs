@@ -19,7 +19,7 @@ else:
 # === YOLO ===
 #model = YOLO("yolov8n.pt")
 #model = YOLO("runs/detect/train5/weights/best.pt")
-model = YOLO("C:/Users/Usuario/Desktop/A3/modelagem e métodos/A3_só_necessário/Identificador_de_ativos_treinado/runs/detect/train/weights/best.pt")
+model = YOLO("/Identificador_de_ativos_treinado/runs/detect/train/weights/best.pt")
 
 track_history = defaultdict(lambda: [])
 seguir = False
